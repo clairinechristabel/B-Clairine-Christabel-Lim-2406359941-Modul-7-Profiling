@@ -78,6 +78,22 @@
 
 ---
 
+## Profiling Results - Perbandingan Sebelum & Sesudah Optimasi
+
+Berikut adalah hasil profiling menggunakan IntelliJ Profiler setelah dilakukan optimasi pada ketiga endpoint, sebagai perbandingan terhadap performa sebelum optimasi.
+
+### `/all-student` (getAllStudentsWithCourses)
+![optimization_all_student](assets/optimization_all_student.jpeg)
+
+### `/all-student-name` (joinStudentNames)
+![optimization_student_names](assets/optimization_student_names.jpeg)
+
+### `/highest-gpa` (findStudentWithHighestGpa)
+![optimization_highest_gpa](assets/optimization_highest_gpa.jpeg)
+
+---
+
+
 ## Kesimpulan (Conclusion)
 
 Setelah melakukan profiling dan optimasi pada ketiga endpoint, terdapat peningkatan performa yang signifikan (lebih dari 20%) pada masing-masing endpoint:
